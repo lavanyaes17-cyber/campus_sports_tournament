@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin Control Panel | Campus Sports Tournament Dashboard</title><link rel="stylesheet" href="style.css"></head>
+<body><header><div class="eyebrow">INTER-DEPARTMENT SPORTS FEST • 2026–27</div>
+<div class="hero-title">CAMPUS SPORTS<br>TOURNAMENT DASHBOARD</div>
+<div class="hero-sub">Train hard. Play fair. Win together. 🏆</div></header>
+<nav><a class="" href="index.html">Home Dashboard</a>
+<a class="" href="schedule.html">Schedule & Standings</a>
+<a class="" href="register.html">Team Registration</a>
+<a class="" href="sports.html">Sports Categories</a>
+<a class="" href="live-scores.html">Live Match Center</a>
+<a class="" href="results.html">Results & Prize Pool</a>
+<a class="active" href="admin.html">Admin Control Panel</a></nav><main><section class="card"><h2>⚙ Admin Control Panel</h2><span class="tag">PHASE 1 PROTOTYPE</span><p class="muted">Demonstration interface for coordinators to preview announcements, update sample live scores and review registration status. No secure login or database is connected.</p></section>
+<section class="card"><h3>📢 Publish Announcement</h3><form id="announcement-form"><label>Announcement</label><textarea id="announcement" rows="3" placeholder="Write a tournament announcement..."></textarea><button type="submit">Preview Announcement</button></form><p id="announcement-preview" role="status"></p></section>
+<section class="card"><h3>🔴 Update Live Score (Demo)</h3><form id="score-form"><label>Team A score</label><input name="a" type="number" min="0" value="0"><label>Team B score</label><input name="b" type="number" min="0" value="0"><button type="submit">Preview Score Update</button></form><p id="score-preview" role="status"></p></section>
+<section class="card"><h3>📋 Registration Review</h3><table><tr><th>Department</th><th>Entry status</th></tr><tr><td>Art Department</td><td>Pending review</td></tr><tr><td>CS Department</td><td>Pending review</td></tr><tr><td>Science Department</td><td>Pending review</td></tr><tr><td>Business Management Department</td><td>Pending review</td></tr><tr><td>Commerce Department</td><td>Pending review</td></tr><tr><td>BCA Department</td><td>Pending review</td></tr></table></section>
+<section class="card"><h3>Contact & Inquiry</h3><p><b>Student Sports Coordinator:</b> Arjun · <a href="mailto:arjun.sports@college.edu">arjun.sports@college.edu</a></p><p><b>Sports Faculty:</b> Ravi · <a href="mailto:ravi.faculty@college.edu">ravi.faculty@college.edu</a></p><p><b>Campus Health Center:</b> <a href="tel:+911234567899">+91-1234567899</a></p><h3>Send an Inquiry</h3><form id="inquiry-form"><label>Your name</label><input required placeholder="Your name"><label>Email</label><input required type="email" placeholder="Your email"><label>Message</label><textarea required rows="3" placeholder="Write your inquiry"></textarea><button type="submit">Submit Inquiry</button></form><p id="inquiry-message" role="status"></p></section></main>
+
+<script src="script.js"></script></body></html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Team Registration | Campus Sports Tournament Dashboard</title><link rel="stylesheet" href="style.css"></head>
+<body><header><div class="eyebrow">INTER-DEPARTMENT SPORTS FEST • 2026–27</div>
+<div class="hero-title">CAMPUS SPORTS<br>TOURNAMENT DASHBOARD</div>
+<div class="hero-sub">Train hard. Play fair. Win together. 🏆</div></header>
+<nav><a class="" href="index.html">Home Dashboard</a>
+<a class="" href="schedule.html">Schedule & Standings</a>
+<a class="active" href="register.html">Team Registration</a>
+<a class="" href="sports.html">Sports Categories</a>
+<a class="" href="live-scores.html">Live Match Center</a>
+<a class="" href="results.html">Results & Prize Pool</a>
+<a class="" href="admin.html">Admin Control Panel</a></nav><main><section class="card"><h2>📝 Team Registration</h2><p class="muted">Registration form for team captains.</p>
+<form id="registration-form"><label>Team / Department</label><select name="team"><option>Art Department</option><option>CS Department</option><option>Science Department</option><option>Business Management Department</option><option>Commerce Department</option><option>BCA Department</option></select>
+<label>Branch</label><input name="branch" required placeholder="Enter branch name">
+<label>Sport</label><select name="sport"><option>Cricket</option><option>Football</option><option>Basketball</option><option>Badminton</option></select>
+<label>Team Captain</label><input name="captain" required placeholder="Captain's full name">
+<label>Email</label><input name="email" type="email" required placeholder="captain@example.com">
+<button type="submit">Submit Team Registration</button></form><p id="reg-message" role="status"></p></section></main>
+
+<script src="script.js"></script></body></html>
